@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <div class="upper-header">
+                <div class="left-header">
+                    <div class="logo">
+                    <h1>SPITAKI</h1>
+                    <p>REAL ESTATE</p>
+                    </div>
+                </div>
+                <div class="menu-header">
+                    <button class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+        
+                      </button>
+                            <!-- ul > li*4 + TAB -->
+                            <nav>
+                            <ul class="nav-ul" id="nav-ul">
+                                <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
+                                <li><a href="sale.html">ΠΩΛΗΣΕΙΣ</a></li>
+                                <li><a href="rent.html">ΕΝΟΙΚΙΑΣΕΙΣ</a></li>
+                                <li><a href="company.html">ΕΤΑΙΡΕΙΑ</a></li>
+                                <li><a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                                </ul>
+                            </nav>
+            </div>
+        </div>
+        </header>
+
+        <menu>
+            <div class="photo1">
+                <center><div class="container2">
+                    <form action="" method="get">
+                    <select name="region">
+                    <option value="opt">Τιμή</option>
+                    <option value="opt">Τετραγωνικά</option>
+                   
+                    </select>
+                    
+                    <select name="city">
+                    <option value="opt">Τετραγωνικά</option>
+                    <option value="opt">Επ.χώρος</option>
+                    <option value="opt">Γή</option>
+                    <option value="opt">Parking</option>
+                    </select>
+
+                    <select name="options">
+                        <option value="opt">Περισσότερα</option>
+                    </select>
+                    
+                    <input type="text" name="location" placeholder="Give me a location eg: Athens">
+                    <input type="submit" name="submit" value="Search">
+                    </form>
+
+                    <button id="trigger" style="padding: .9em 2em;" onclick="show()">Filters</button>
+                    <div id="filters" style="margin-top: 1em;">
+                        <select name="city" style="display: inline;">
+                            <option value="opt">Είδος</option>
+                            <option value="opt">Διαμέρισμα</option>
+                            <option value="opt">Μονοκατοικία</option>
+                            <option value="opt">Κτίριο</option>
+                        </select>
+                        <select name="city" style="display: inline;">
+                            <option value="opt">Επ.χώρος</option>
+                            <option value="opt">Γή</option>
+                            <option value="opt">Parking</option>
+                        </select>
+                        <div id="tetragonika" style="display: inline-block;">
+                            <span>Τετραγωνικά</span>
+                            <input type="number" style="width: 40px;border: 1px solid black;" name="" id="" placeholder="απο"> - <input type="number" style="width: 40px; border: 1px solid black;" name="" id="" placeholder="έως">
+                        </div>
+
+                    </div>
+                     
+                
+                </div> </center>
+            </div>
+        </menu>
+        <br><br><br>
+        <content>
+                <div class="flex-container" style="margin-top: 50px;">
+                    <div class="home">
+                        <img src="https://ecozen.gr/wp-content/uploads/2020/06/%CF%83%CF%80%CE%AF%CF%84%CE%B9.jpg" class="img">
+                        <h4>ΠΩΛΗΣΗ</h4>    
+                        <p>Διαμέρισμα</p>
+                        <h3>ΜΥΚΟΝΟΣ,ΚΥΚΛΑΔΕΣ</h3>
+                        <h2 class="price">350.000 &euro;</h2>
+                    </div>
+                    <div class="home">
+                        <img src="https://www.realestate.com.au/blog/images/1024x768-fit,progressive/2020/06/26110044/capi_91ce13abde9a726609516d11358b7e41_e48ff747f2e315abd791b4b63a35dd10.jpeg" class="img">
+                        <h4>ΠΩΛΗΣΗ</h4>    
+                        <p>Διαμέρισμα</p>
+                        <h3>ΜΥΚΟΝΟΣ,ΚΥΚΛΑΔΕΣ</h3>
+                        <h2 class="price">650.000 &euro;</h2>
+                    </div>  
+                    <div class="home">
+                    <img src="https://s3.voyapon.com/wp-content/uploads/2020/02/06114458/Voyapon_Kominka_34-1-1024x768-1.jpeg" class="img">
+                        <h4>ΠΩΛΗΣΗ</h4>    
+                        <p>Διαμέρισμα</p>
+                        <h3>ΑΡΑΧΩΒΑ,ΛΙΒΑΔΙ</h3>
+                        <h2 class="price">450.000 &euro;</h2>
+                    </div>
+                    <div class="home">
+                        <img src="https://elinongi.gr/wp-content/uploads/2018/11/4-SPITI-1024x768.jpg" class="img">
+                        <h4>ΠΩΛΗΣΗ</h4>    
+                        <p>Διαμέρισμα</p>
+                        <h3>ΠΑΓΚΡΑΤΙ,ΚΥΚΛΑΔΕΣ</h3>
+                        <h2 class="price">550 &euro;</h2>
+                        </div>
+                </div>
+                <div class="flex-container">
+                    <div class="home">
+                    <img src="https://fishernantucket.com/wp-content/uploads/2019/11/133-Old-South-How-Much-Does-a-House-in-Nantucket-Cost-1024x768.jpg" class="img">
+                    <h4>ΠΩΛΗΣΗ</h4>    
+                    <p>Διαμέρισμα</p>
+                    <h3>ΠΑΓΚΡΑΤΙ,ΚΥΚΛΑΔΕΣ</h3>
+                    <h2 class="price">550 &euro;</h2>
+                    </div>
+                    <div class="home">
+                    <img src="https://clarkandaldine.com/wp-content/uploads/2019/09/IMG_8852-1150x863.jpg" class="img">
+                    <h4>ΠΩΛΗΣΗ</h4>    
+                    <p>Διαμέρισμα</p>
+                    <h3>ΓΛΥΦΑΔΑ,ΚΥΚΛΑΔΕΣ</h3>
+                    <h2 class="price">750 &euro;</h2>
+                    </div>
+                    <div class="home">
+                    <img src="https://de51gn.com/wp-content/uploads/2019/11/18-1024x768.jpg" class="img">
+                    <h4>ΠΩΛΗΣΗ</h4>    
+                    <p>Διαμέρισμα</p>
+                    <h3>ΚΟΛΩΝΑΚΙ,ΚΥΚΛΑΔΕΣ</h3>
+                    <h2 class="price">950 &euro;</h2>
+                    </div>
+                    <div class="home">
+                    <img src="https://clarkandaldine.com/wp-content/uploads/2019/09/IMG_8852-1150x863.jpg" class="img">
+                    <h4>ΠΩΛΗΣΗ</h4>    
+                    <p>Διαμέρισμα</p>
+                    <h3>ΓΛΥΦΑΔΑ,ΚΥΚΛΑΔΕΣ</h3>
+                    <h2 class="price">750 &euro;</h2>
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div class="home">
+                    <img src="https://cdn.sofokleousin.gr/sites/default/files/styles/node_full/public/2019-08/foititiko-spiti.jpg?itok=tyuA_XnV" class="img">
+                    <h4>ΠΩΛΗΣΗ</h4>    
+                    <p>Διαμέρισμα</p>
+                    <h3>ΠΑΓΚΡΑΤΙ,ΚΥΚΛΑΔΕΣ</h3>
+                    <h2 class="price">550 &euro;</h2>
+                    </div>
+                    <div class="home">
+                    <img src="https://clarkandaldine.com/wp-content/uploads/2019/09/IMG_8852-1150x863.jpg" class="img">
+                    <h4>ΠΩΛΗΣΗ</h4>    
+                    <p>Διαμέρισμα</p>
+                    <h3>ΓΛΥΦΑΔΑ,ΚΥΚΛΑΔΕΣ</h3>
+                    <h2 class="price">750 &euro;</h2>
+                    </div>
+                    <div class="home">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLIBxUwNvSrPjprD_DcXTDsk9uTopBJ7A55g&usqp=CAU" class="img">
+                    <h4>ΠΩΛΗΣΗ</h4>    
+                    <p>Διαμέρισμα</p>
+                    <h3>ΚΟΛΩΝΑΚΙ,ΚΥΚΛΑΔΕΣ</h3>
+                    <h2 class="price">950 &euro;</h2>
+                    </div>
+                    <div class="home">
+                    <img src="https://clarkandaldine.com/wp-content/uploads/2019/09/IMG_8852-1150x863.jpg" class="img">
+                    <h4>ΠΩΛΗΣΗ</h4>    
+                    <p>Διαμέρισμα</p>
+                    <h3>ΓΛΥΦΑΔΑ,ΚΥΚΛΑΔΕΣ</h3>
+                    <h2 class="price">750 &euro;</h2>
+                    </div>
+            </div>
+            <div class="flex-container">
+                <div class="home">
+                <img src="https://cdn.sofokleousin.gr/sites/default/files/styles/node_full/public/2019-08/foititiko-spiti.jpg?itok=tyuA_XnV" class="img">
+                <h4>ΠΩΛΗΣΗ</h4>    
+                <p>Διαμέρισμα</p>
+                <h3>ΠΑΓΚΡΑΤΙ,ΚΥΚΛΑΔΕΣ</h3>
+                <h2 class="price">550 &euro;</h2>
+                </div>
+                <div class="home">
+                <img src="https://clarkandaldine.com/wp-content/uploads/2019/09/IMG_8852-1150x863.jpg" class="img">
+                <h4>ΠΩΛΗΣΗ</h4>    
+                <p>Διαμέρισμα</p>
+                <h3>ΓΛΥΦΑΔΑ,ΚΥΚΛΑΔΕΣ</h3>
+                <h2 class="price">750 &euro;</h2>
+                </div>
+                <div class="home">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLIBxUwNvSrPjprD_DcXTDsk9uTopBJ7A55g&usqp=CAU" class="img">
+                <h4>ΠΩΛΗΣΗ</h4>    
+                <p>Διαμέρισμα</p>
+                <h3>ΚΟΛΩΝΑΚΙ,ΚΥΚΛΑΔΕΣ</h3>
+                <h2 class="price">950 &euro;</h2>
+                </div>
+                <div class="home">
+                <img src="https://clarkandaldine.com/wp-content/uploads/2019/09/IMG_8852-1150x863.jpg" class="img">
+                <h4>ΠΩΛΗΣΗ</h4>    
+                <p>Διαμέρισμα</p>
+                <h3>ΓΛΥΦΑΔΑ,ΚΥΚΛΑΔΕΣ</h3>
+                <h2 class="price">750 &euro;</h2>
+                </div>
+            </div>
+        </content>
+
+        <footer>
+            <div class="footeraki">
+                <div class="about">
+                <div class="left-down">
+                    <h2>ΕΤΑΙΡΙΑ</h2>
+                    <p>Θέσεις εργασίας</p>
+                    <p>Θέσεις εργασίας</p>
+                </div>
+                <div class="center-footer">
+                    <h2>ΕΠΙΚΟΙΝΩΝΙΑ</h2>
+                    <p>Θέσεις εργασίας</p>
+                    <p>Θέσεις εργασίας</p>
+                    <p>Θέσεις εργασίας</p>
+                </div>
+                <div class="right-down">
+                    <h2>ΑΚΟΛΟΥΘΗΣΤΕ ΜΑΣ</h2>
+                    <p>Θέσεις εργασίας</p>
+                    <p>Θέσεις εργασίας</p>
+                    <p>Θέσεις εργασίας</p>
+
+                </div>
+                </div>
+            </div>
+        </footer>
+
+        </div>
+
+
+
+        <script>
+        
+            $(() => {
+
+                $('#filters').hide();
+
+                $('#trigger').on('click', () => {
+                    $('#filters').slideToggle(1000);
+                });
+
+
+            });
+    
+           
+        </script>
+    </body>
+    </html>
+
+    

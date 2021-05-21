@@ -1,0 +1,98 @@
+body{
+    background-color: #b3a4ee !important;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+#mynav {
+    background-color:#967ADA  !important;
+}
+
+#menu li a{
+    color:white;
+    padding:20px;
+    font-size:20px ;   
+}
+
+#enter li a{
+    color: white;
+    padding:20px;
+    font-size:20px;
+}
+
+#shma img{
+    padding-top:7%;
+}
+
+#kalos{
+    padding-top:6%;
+    color:white;
+}
+
+#kalos p{
+    background-color: #4CAF50;
+    color: white;
+    font-size:20px;
+    border: none;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px 5px #888888; }
+
+.main-text{
+    background-color: #424852;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color:aliceblue;
+}
+
+#kathgoriesh{
+    width:80%;
+}
+
+#kathgoriesh p{
+    color:white;
+    padding-top:1%;
+    font-size:35px
+}  
+ 
+#kathgories img{
+     padding-top:10%;
+     padding-bottom:10%
+}   
+
+#forma{
+    background-color: #967ADA ;
+    margin-top:4%;
+    border-radius:10px;
+}
+
+#forma p{
+    color:white;
+    font-size:20px;
+}
+
+#form{
+    width:10%
+}
+#footerr p{
+    color:white;
+}    
+
+#forma1{
+    background-color: #967ADA  !important;
+    margin-top:4%;
+    border-radius:10px;
+    width:30%;
+}
+#footerr{
+    background-color:#424852;
+    padding-top:1%;
+}
