@@ -17,11 +17,10 @@
 }
 
 header > .upper-header > .left-header{
-    width:40%;
+    width:100%
 }
 
 .upper-header > .left-header > .logo{
-    width:100%;
     height:4em;
     background-color:black;
 }
@@ -30,17 +29,17 @@ header > .upper-header > .left-header > .logo > h1{
     width:70%;
     color:white;
     text-align:center;
+    margin:auto;
+    padding-top:20px;
+    font-size: 35px;
+
 }
 
-header > .upper-header > .left-header > .logo > p{
-    width:70%;
-    color:white;
-    text-align:center;
+.menu-header{
+    width:100%;
+    background-color: black;
 }
 
-.upper-header > .menu-header{
-    width:70%;
-}
 
 .hamburger{
     background-color:#fff;
@@ -58,7 +57,7 @@ nav {
     display:flex;
     align-items:center;
     justify-content: center;
-    width:100%;
+    width:75%;
     background: #eee; 
     margin:auto;
     text-align:center;
@@ -423,7 +422,7 @@ button[type="submit"] {
     }
     
     header > .upper-header > .left-header{
-        width:24%;
+        width:100%;
     }
     
     .upper-header > .left-header > .logo{
@@ -436,19 +435,11 @@ button[type="submit"] {
         width:70%;
         color:white;
         text-align:center;
-        font-size:21px;
+        font-size:25px;
         padding:0px 10px;
         padding-top:8px;
     }
-    
-    header > .upper-header > .left-header > .logo > p{
-        width:80%;
-        color:white;
-        text-align:center;
-        font-size:12px;
-        padding:0px 8px;
-
-    }
+   
     
     .upper-header > .menu-header{
         width:100%;
@@ -542,11 +533,10 @@ content > .center-menu > p{
 }
 
 .hamburger{
-    background-color:red;
-    font-size:30px;
-    border:0;
-    cursor:pointer;
-    display:none;
+    display:block;
+    float:right;
+    margin:10px;
+    padding:2px;
 }
 
 .hamburger:focus{
@@ -570,15 +560,13 @@ nav {
 }
 
 .nav-ul{
-    display:flex;
-    list-style-type: none;
-    width:60%;
     text-align:center;
-    justify-content: center;
-    margin:auto;
-    flex-direction:row;
-
+    width:100%;
+    display:none;
+    flex-direction:column;
+    color:white;
 }
+
 
 .nav-ul > li{
     flex:auto;
@@ -597,7 +585,7 @@ nav {
     text-decoration: none;
     text-align: center;
     color:white;
-    font-size:12px;
+    font-size:15px;
     font-weight: bold;
     display:inline-block;
 }
@@ -903,12 +891,9 @@ button[type="submit"] {
         margin:0 auto;
     }
 
-    
     .wrapper > header > .upper-header{
         width:100%;
-        height:4em;
         display:flex;
-    
     }
 
     .nav-ul{
@@ -942,7 +927,8 @@ button[type="submit"] {
     }
 
     header > .upper-header > .left-header{
-        width:30%;
+        width:100%;
+        background-color:black;
     }
     
     .upper-header > .left-header > .logo{
@@ -955,7 +941,7 @@ button[type="submit"] {
         width:70%;
         color:white;
         text-align:center;
-        font-size:20px;
+        font-size:30px;
         padding:0px 10px;
         padding-top:8px;
     }
@@ -971,7 +957,6 @@ button[type="submit"] {
 
 .container{
     width:80%;
-    height:120px;
 }
 
 .container2 {
@@ -987,7 +972,6 @@ menu > .photo{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height:30em;
     width:100%;
     text-align:center;
 }
@@ -1141,9 +1125,9 @@ menu > .photo1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height:7em;
     width:100%;
     text-align:center;
+    margin-bottom:14em;
 }
 
 .container2 {
@@ -1260,9 +1244,9 @@ article > .forma{
     height:30em;
     background-color:black;
     border-radius: 8px;
-    width:65%;
+    width:70%;
     margin:auto;
-    margin-top:30px;
+    margin-top:70px;
     padding:10px;
 }
 
@@ -1285,7 +1269,7 @@ article > .forma > h1{
 
 .form-group > .input-control{
     padding:10px 6px;
-    width:71.5%;
+    width:81.5%;
     display: block;
     margin-bottom: .2em;
 
@@ -1300,7 +1284,7 @@ input[type="email"] {
 }
 
 button[type="submit"] {
-    width: 74.5%;
+    width:85.5%;
     display: block;
     margin-top: 1em;
     margin-bottom: .5em;
@@ -1346,7 +1330,7 @@ button[type="submit"] {
     }
     
     header > .upper-header > .left-header{
-        width:20%;
+        width:100%;
     }
     
     .upper-header > .left-header > .logo{
@@ -1359,7 +1343,7 @@ button[type="submit"] {
         width:70%;
         color:white;
         text-align:center;
-        font-size:21px;
+        font-size:35px;
         padding:0px 10px;
         padding-top:8px;
     }
@@ -1541,9 +1525,9 @@ menu > .photo1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height:7em;
-    width:100%;
+    width:90%;
     text-align:center;
+    margin:0px 30px 40px;
 }
 
 .container2 {
