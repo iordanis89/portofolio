@@ -1,0 +1,1055 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    margin:auto;
+}
+
+/* nav - css */
+
+
+.wrapper > .upper-header{
+    height:900px;
+    display:flex;
+    margin-bottom:150px;
+    width: 100%;
+    background-image: url('../images/profile.jpeg');
+}
+
+.upper-header > .left-up{
+    width:30%;
+    height: 10em;
+}
+
+.armonia{
+  color:white;
+  text-decoration:none;
+}
+
+.armonia:hover{
+  color:grey;
+}
+
+#indeximg{
+    width:100%;
+}
+
+.left-up > h1{
+    color:white;
+    font-size:40px;
+    text-align:center;
+    margin:20px;
+}
+
+.upper-header > .right-up{
+    width:70%;
+    height: 10em;
+}
+
+.click{
+    width:60%;
+    height:10em;
+    text-align:center;
+    margin:auto;
+}
+
+
+.click > button{
+    width:20%;
+    margin:20px;
+    font-size:30px;
+    color:white;
+    border:2px #fff solid;
+    float:right;
+    border-radius: 300px;
+    background-color: transparent;
+}
+
+.click > button:hover{
+  width:20%;
+  margin:20px;
+  font-size:30px;
+  color:white;
+  border:2px #fff solid;
+  float:right;
+  border-radius: 300px;
+  background-color:black;
+}
+
+.letters{
+    width:100%;
+    margin-top: 300px;
+    position:absolute;
+}
+
+.letters > h1{
+    color:white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.letters > h4{
+  color:white;
+  font-size: 55px;
+  text-align: center;
+}
+
+.letters2 > h3{
+  color:white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.letters2{
+    width:100%;
+    margin-top:400px;
+    position:absolute;
+}
+
+.letters2 > h1{
+    color:white;
+    font-size: 80px;
+    text-align: center;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* menu - index - css */
+
+.koumpia{
+  font-size:20px;
+    border:2px #111 solid;
+    border-radius:10px;
+    background-color:black;
+    font-weight: bold;
+    padding:3px;
+    text-decoration:none;
+    color:white;
+    width:30%;
+    margin-top: 20px;
+}
+
+.koumpia:hover{
+    font-size:20px;
+    border:2px #111 solid;
+    border-radius:10px;
+    background-color:black;
+    color:white;
+    opacity: 0.7;
+
+}
+
+.mychef p{
+  margin-top:10px;
+  margin-bottom:30px;
+  font-size:20px;
+}
+
+
+#photo1{
+    margin-top:120px;
+}
+
+#photo2{
+    margin-top:120px;
+}
+
+#photo3{
+    margin-top:250px;
+}
+
+#photo4{
+    margin-top:40px;
+}
+
+#photo5{
+    margin-top:40px;
+}
+
+#chef{
+    margin-top:85px;
+}
+
+/* menu - project - css */
+
+#keimeno{
+    text-align: center;
+}
+
+
+button{
+    width:20%;
+    margin:20px;
+    font-size:30px;
+    border:2px #111 solid;
+    border-radius: 500px;
+    background-color: transparent;
+}
+
+#koumpi{
+    font-size:20px;
+    border:2px #111 solid;
+    border-radius: 500px;
+    background-color: transparent;
+    font-weight: bold;
+    padding:8px;
+    text-decoration:none;
+    color:#111;
+}
+
+#koumpi:hover{
+    margin:20px;
+    font-size:20px;
+    border:2px #111 solid;
+    border-radius: 500px;
+    background-color:black;
+    color:white;
+}
+
+.about p{
+  font-size: 30px;
+}
+
+.epikefalida{
+  font-weight:bold;
+  margin-top:10px;
+}
+
+
+.pros{
+  position: relative;
+}
+
+.pros p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size:80px;
+  font-weight: bold;
+}
+
+.pros img{
+  opacity:0.8;
+}
+
+.touch{
+  background-color:#a9a9a9;
+}
+/* contact - form - css */
+
+form{
+    width:45%;
+    margin:auto;
+    margin-top:70px;
+    background-color:#a9a9a9;
+    color:white;
+}
+
+#map{
+    width:100%;
+    height:300px;
+}
+.form5{
+    background-color: #a9a9a9;
+    color:white;
+}
+
+.form5 h1{
+  text-decoration:line
+}
+
+.form5 h3{
+  text-decoration:overline
+}
+
+form #submit{
+    text-align:center;
+    margin:auto;
+}
+
+/* footer - css */
+
+#footer{
+    text-align: center;
+    background-color:#f5f5f5;
+  }
+
+.col-2 p{
+    font-size:30px;
+}
+
+#email{
+    font-size:25px;
+    margin-top:20px;
+}
+
+#signup{
+    font-size: 20px;
+}
+
+.form-control{
+    width:50%;
+    background-color:#E0ECFD;
+}
+
+
+hr{ 
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+#about{
+    margin-top: 100px;
+}
+
+#koumpi{
+  margin-top:20px;
+}
+
+#deuterh{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    height:3px;
+    color:black;
+    background-color:black;
+}
+
+#fsearch{
+  width:65%;
+  display:inline-block;
+
+}
+
+#formbutton{
+  width:32%;
+  font-size:20px;
+  border-radius:300px;
+  background-color: black;
+  color:white;
+}
+
+#formbutton2{
+  padding:5px;
+  margin-top: 20px;;
+  width:32%;
+  font-size:20px;
+  border-radius:300px;
+  background-color: black;
+  color:white;
+}
+
+#formbutton:hover{
+  opacity: 0.7;
+}
+
+#formbutton2:hover{
+  opacity: 0.7;
+}
+
+.athens p{
+  font-size:20px;
+}
+
+.company p {
+  font-size:20px;
+}
+
+
+.projectp{
+  font-size:20px;
+}
+
+/*navigation menu */
+.sidenav {
+    height: 100%; 
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  #Menu{
+      float:right;
+      margin:auto;
+      text-align:center;
+      height:150px;
+
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* css - animation -letters */
+.letters h1:nth-child(1) {
+  color:white;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 60px;
+  margin:auto;
+  text-align:center;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 550px;
+  animation: type 2s steps(40,end) forwards;
+}
+
+.letters h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  position:absolute;
+  font-weight:800;
+  font-size: 60px;  
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+}
+
+.letters2 h1:nth-child(1) {
+  color:white;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 60px;
+  margin:auto;
+  text-align:center;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 550px;
+  animation: type 2s steps(40,end) forwards;
+}
+
+.letters2 h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  font-weight: 800;
+  font-size: 60px;  
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%, 99%{
+    border-right: 1px solid orange;
+  }
+  100%{
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+  /* css - hover -animation */
+  div.test {   
+    display: inline-block;
+    position: relative;
+    overflow: hidden; 
+    text-align: center;   
+    cursor: pointer;
+  }
+
+  div.test img {
+    width: 100%;
+    height: 100%;
+  }
+
+  div.test figcaption {
+    position: absolute;
+    top: 50%;
+    left: 32.5%;
+    right: 22.5%; 
+    width: 200px;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.8s ease-out;
+    transition-delay: 0.2s;
+  }
+
+  div.test:after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    top: 7%;
+    left: 10%;
+    right: 10%;
+    bottom: 7%;
+    background: white;
+    opacity: 0;
+    transition: all 0.8s ease-out;
+  }
+
+  div.test:hover:after {
+    opacity: 0.6;
+  }
+
+  div.test:hover figcaption {
+    transform: translateY(-50%);
+    opacity: 1;
+  }
+  
+  #rotate {
+    perspective: 500px;
+  }
+
+  #rotate:after {
+    transform: rotateX(90deg);
+    transition: all 0.6s ease-in-out;
+  }
+
+  #rotate:hover:after {
+    transform: rotateX(0deg);
+  }
+
+  #rotate figcaption {  
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-50%) rotateX(90deg);
+  }
+
+  #rotate:hover figcaption {
+    transform: translateY(-50%) rotateX(0);
+  }
+  
+
+  .frame {
+    text-align: center; 
+    position: relative;
+    cursor: pointer;  
+    perspective: 500px; 
+  }
+
+  .frame img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .frame .details {
+    width: 75%;
+    height: 80%;  
+    padding: 5% 10%;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(90deg);
+    transform-origin: 50%;
+    background: rgba(255,255,255,0.9);  
+    opacity: 0;
+    transition: all 0.4s ease-in;
+    
+  }
+
+  .frame:hover .details {
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+  }
+  
+  /*Effect without Perspective*/
+  .frame#wth {
+    perspective: none;
+
+  }
+
+  /* animation - hover - project */
+
+  .pros p {
+    --h: 1.2em;  
+    line-height: var(--h);
+    color:#fff;
+    text-shadow: 
+      0 var(--_t,var(--h)) #fff,
+      0 0 var(--_c,#000);
+    background: 
+      linear-gradient(#1095c1 0 0) 
+      bottom/100% var(--_d, 0) no-repeat;
+    overflow: hidden;
+    transition: 0.3s;
+    border-radius: 300px;
+  }
+  
+  .pros p:hover {
+    --_d: 100%;
+    --_t: 0;
+    --_c: #0000;
+  }
+  
+ 
+  .pros p {
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+    margin:0;
+    cursor: pointer;
+    padding: 0 .1em;
+  }
+
+  /* animation - hover - contact */
+  .btn-shine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  padding: 12px 48px;
+  color: #ffffff;
+  background: linear-gradient(to right, #000 0, black 10%, #f1f1f1 20%);
+  background-position:0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight:600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  }
+    
+@keyframes shine {
+  0%
+   { background-position: 0}
+  60%
+   { background-position: 180px;}
+  100%
+    {background-position: 320px;}
+}
+
+
+  /* responsive for mobiles */
+  @media only screen and (min-width:320px) and (max-width:500px){
+
+
+      .wrapper{
+        width:100%;
+    
+      }
+
+      .wrapper > .upper-header{
+        width:100%;
+        background-image:url('../images/profile.jpeg');
+        display:flex;
+      }
+
+      .upper-header > .left-up{
+        width:65%;
+        text-align: center;
+      }
+
+      .left-up > h1{
+        color:white;
+        font-size:30px;
+        text-align:center;
+        margin:20px;
+    }
+
+      .right-up{
+        width:50%;
+      }
+
+    
+      button{
+        width:100%;
+      }
+
+      .click{
+        width:100%;
+        font-size:20px;
+      }
+
+      .click > button{
+        width:75%;
+        margin:20px;
+        font-size:30px;
+        color:white;
+        border:2px #fff solid;
+        float:right;
+        border-radius: 350px;
+        background-color: transparent;
+    }
+
+    .click > button:hover{
+      width:75%;
+      margin:20px;
+      font-size:30px;
+      color:white;
+      border:2px #fff solid;
+      float:right;
+      border-radius: 300px;
+      background-color:black;
+    }
+    
+
+    .letters2{
+        width:100%;
+        margin-top:320px;
+        position:absolute;
+    }
+
+    .letters > h1{
+      color:white;
+      font-size: 60px;
+      text-align: center;
+  }
+
+  .letters2 > h1{
+    color:white;
+    font-size: 60px;
+    text-align: center;
+}
+  
+
+    .letters{
+      width:100%;
+      margin-top: 250px;
+      position:absolute;
+  }
+
+    #photo3{
+        margin-top:80px;
+    }
+
+    #photo2{
+        margin-top:80px;
+    }
+
+    #chef{
+        text-align: center;
+        width:100%;
+    }
+
+    #map{
+        width:100%;
+    }
+
+    .athens h3{
+      margin-top:20px;
+    }
+
+    .athens p{
+      font-size:20px;
+    }
+    
+    .company p {
+      font-size:20px;
+    }
+    
+
+    }
+
+
+     /* responsive for tablet */
+     @media only screen and (min-width:500px) and (max-width:1200px){
+
+    .wrapper{
+         width:100%;
+        
+    }   
+
+    .wrapper > .upper-header{
+        width:100%;
+        background-image:url('../images/profile.jpeg');
+        display:flex;
+        height:750px;   
+    }
+
+    .upper-header > .left-up{
+        width:70%;
+        text-align: center;
+      }
+
+      .left-up > h1{
+        color:white;
+        font-size:30px;
+        text-align:center;
+        margin:20px;
+    }
+
+      .right-up{
+        width:50%;
+      }
+
+      .letters2{
+        width:100%;
+        margin-top:410px;
+        position:absolute;
+    }
+
+    .letters > h1{
+      color:white;
+      font-size:60px;
+      text-align: center;
+  }
+
+  .letters2 > h1{
+    color:white;
+    font-size: 60px;
+    text-align: center;
+}
+  
+
+    .letters{
+      width:100%;
+      margin-top:350px;
+      position:absolute;
+  }
+
+
+      .click{
+        width:50%;
+        font-size:20px;
+      }
+
+      .click > button{
+        width:75%;
+        margin:20px;
+        font-size:30px;
+        color:white;
+        border:2px #fff solid;
+        float:right;
+        border-radius: 350px;
+        background-color: transparent;
+    }
+
+
+    #map{
+        width:95%;
+    }
+
+    #fsearch{
+      width:90%;
+  
+    }
+  
+    #formbutton{
+      width:55%;
+      font-size:20px;
+      border-radius:300px;
+      background-color:black;
+      color:white;
+      margin-top:10px;
+    }
+
+    #signup{
+      font-size:18px;
+    }
+
+    #email{
+      margin-top:10px;
+
+    }
+
+    .koumpia{
+      font-size:20px;
+        border:2px #111 solid;
+        border-radius:10px;
+        background-color:black;
+        font-weight: bold;
+        padding:3px;
+        text-decoration:none;
+        color:white;
+        width:45%
+    }
+    
+    .koumpia:hover{
+        font-size:20px;
+        border:2px #111 solid;
+        border-radius:10px;
+        background-color:black;
+        color:white;
+        opacity: 0.7;
+    
+    }
+
+
+    /* css - animation -letters */
+.letters h1:nth-child(1) {
+  color:white;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 50px;
+  margin:auto;
+  text-align:center;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 350px;
+  animation: type 2s steps(40,end) forwards;
+}
+
+.letters h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  position:absolute;
+  font-weight:800;
+  font-size: 100px;  
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+}
+
+.letters2 h1:nth-child(1) {
+  color:white;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 50px;
+  margin:auto;
+  text-align:center;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 350px;
+  animation: type 2s steps(40,end) forwards;
+}
+
+.letters2 h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  font-weight: 800;
+  font-size: 100px;  
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%, 99%{
+    border-right: 1px solid orange;
+  }
+  100%{
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+  
+  
+     }
